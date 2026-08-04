@@ -1,0 +1,339 @@
+{
+  "schema_version": "1.0.0",
+  "document": {
+    "file_name": "Sid_Resume_MASTER.pdf",
+    "file_type": "pdf",
+    "file_size_bytes": 158342,
+    "sha256": "3ed94ae37fa141df467c49459c4f32ea3c0bff4d0136a52513282a68590e43f2",
+    "parser": "pypdf",
+    "page_count": 2,
+    "parsed_at_utc": "2026-08-04T10:38:50.332959+00:00"
+  },
+  "candidate": {
+    "full_name": "Siddharth Rajendran",
+    "headline": "DevOps & Cloud Engineer",
+    "summary": "DevOps & Cloud Engineer with 2+ years of experience operating AWS and Azure infrastructure in production healthcare\nenvironments. Specializes in Infrastructure as Code (Terraform), Kubernetes/EKS cluster management, CI/CD pipeline\nautomation, and containerized microservices deployments. Proven ability to maintain SLOs for system availability and latency,\nreduce deployment lead times, and bridge development and operations teams through GitOps practices, observability tooling, and\nblameless postmortem culture. Creator of CloudOps Command Center — an open-source cloud operations platform providing\nunified deployment governance, Kubernetes visibility, and AI-assisted incident investigation.",
+    "contact": {
+      "emails": [
+        "siddharthr4925@gmail.com"
+      ],
+      "phones": [
+        "+919150897914"
+      ],
+      "location": "Chennai, India",
+      "profile_links": [
+        {
+          "network": "linkedin",
+          "url": "https://linkedin.com/in/siddharth20s",
+          "username": "siddharth20s"
+        },
+        {
+          "network": "github",
+          "url": "https://github.com/siddharth20s",
+          "username": "siddharth20s"
+        }
+      ]
+    }
+  },
+  "skills": {
+    "programming_languages": [
+      "python",
+      "bash",
+      "typescript"
+    ],
+    "frameworks": [
+      "asp.net core",
+      "rest api"
+    ],
+    "cloud_platforms": [
+      "aws",
+      "eks",
+      "ec2",
+      "lambda",
+      "iam",
+      "vpc",
+      "s3",
+      "rds",
+      "azure",
+      "app services",
+      "key vault",
+      "aks",
+      "entra id",
+      "terraform",
+      "bicep",
+      "cloudformation",
+      "docker",
+      "kubernetes",
+      "k3s",
+      "kind",
+      "azure sql"
+    ],
+    "databases": [
+      "postgresql",
+      "ms sql server"
+    ],
+    "data_and_ai": [
+      "boto3",
+      "azure sdk"
+    ],
+    "devops_and_tools": [
+      "cloudwatch",
+      "helm",
+      "kustomize",
+      "kubectl",
+      "argocd",
+      "github actions",
+      "azure devops",
+      "jenkins",
+      "gitops",
+      "datadog",
+      "prometheus",
+      "grafana",
+      "loki",
+      "incident response",
+      "yaml",
+      "devsecops"
+    ],
+    "soft_skills": [],
+    "domain_keywords": [
+      "healthcare"
+    ],
+    "other": [
+      "configuration management",
+      "slo sli sla",
+      "stored procedures",
+      "query optimization",
+      "iam least-privilege",
+      "secrets management"
+    ],
+    "all": [
+      "aws",
+      "eks",
+      "ec2",
+      "lambda",
+      "iam",
+      "vpc",
+      "s3",
+      "rds",
+      "cloudwatch",
+      "azure",
+      "app services",
+      "key vault",
+      "aks",
+      "entra id",
+      "terraform",
+      "bicep",
+      "cloudformation",
+      "helm",
+      "kustomize",
+      "docker",
+      "kubernetes",
+      "k3s",
+      "kind",
+      "kubectl",
+      "argocd",
+      "github actions",
+      "azure devops",
+      "jenkins",
+      "gitops",
+      "datadog",
+      "prometheus",
+      "grafana",
+      "loki",
+      "incident response",
+      "python",
+      "boto3",
+      "azure sdk",
+      "bash",
+      "typescript",
+      "yaml",
+      "asp.net core",
+      "rest api",
+      "postgresql",
+      "ms sql server",
+      "azure sql",
+      "devsecops",
+      "healthcare",
+      "configuration management",
+      "slo sli sla",
+      "stored procedures",
+      "query optimization",
+      "iam least-privilege",
+      "secrets management"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Kanini Software Solutions",
+      "title": "DevOps / Cloud Engineer",
+      "location": "Chennai, India",
+      "start_date": "2024-04",
+      "end_date": "present",
+      "is_current": true,
+      "duration_months": 28,
+      "description": "Engineered reusable Terraform modules for Azure infrastructure (App Services, Key Vault, Storage Accounts, PostgreSQL), reducing environment provisioning time by ~60% and eliminating configuration drift across dev and QA. Built and maintained GitHub Actions and Azure DevOps CI/CD pipelines for .NET microservices, enabling zero-downtime deployments and cutting manual release effort by ~70%. Operated EKS clusters in production — managing node group lifecycles, IAM role bindings, add-on version compatibility, and Kubernetes upgrade sequencing; resolved control-plane-to-node version mismatch incidents post-deployment. Containerized and deployed .NET microservices with Docker across EKS, K3s, and KIND environments; managed workloads using kubectl, YAML manifests, and Helm charts.",
+      "highlights": [
+        "Engineered reusable Terraform modules for Azure infrastructure (App Services, Key Vault, Storage Accounts, PostgreSQL), reducing environment provisioning time by ~60% and eliminating configuration drift across dev and QA.",
+        "Built and maintained GitHub Actions and Azure DevOps CI/CD pipelines for .NET microservices, enabling zero-downtime deployments and cutting manual release effort by ~70%.",
+        "Operated EKS clusters in production — managing node group lifecycles, IAM role bindings, add-on version compatibility, and Kubernetes upgrade sequencing; resolved control-plane-to-node version mismatch incidents post-deployment.",
+        "Containerized and deployed .NET microservices with Docker across EKS, K3s, and KIND environments; managed workloads using kubectl, YAML manifests, and Helm charts.",
+        "Implemented Datadog and CloudWatch dashboards and alerting for Lambda, EC2, and EKS cluster health monitoring; reduced mean time to detection (MTTD) for production incidents.",
+        "Provisioned and managed AWS and Azure infrastructure using Terraform and Bicep; enforced IaC standards and configuration management practices for consistent, repeatable deployments.",
+        "Applied security best practices across all deployments: IAM least-privilege policies, secrets management via Key Vault, and DevSecOps controls in CI/CD pipelines.",
+        "Participated in on-call rotations, incident response, blameless postmortems, and root cause analysis (RCA) to maintain SLOs for system availability and latency.",
+        "Collaborated with dev teams to resolve deployment failures, cloud misconfigurations, and environment parity issues; documented processes and runbooks for knowledge sharing.",
+        "Supported PostgreSQL and MS SQL Server backends including stored procedure debugging, query optimization, and database connectivity for ASP.NET Core REST APIs."
+      ],
+      "technologies": [
+        "sql",
+        ".net",
+        "asp.net core",
+        "aws",
+        "azure",
+        "docker",
+        "kubernetes",
+        "terraform",
+        "eks",
+        "k3s",
+        "kind",
+        "ec2",
+        "lambda",
+        "iam",
+        "app services",
+        "key vault",
+        "storage accounts",
+        "bicep",
+        "postgresql",
+        "ms sql server",
+        "github",
+        "github actions",
+        "azure devops",
+        "helm",
+        "kubectl",
+        "yaml",
+        "datadog",
+        "cloudwatch",
+        "incident response",
+        "devsecops"
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "education": [
+    {
+      "institution": "Francis Xavier Engineering College, Tirunelveli Graduated 2023",
+      "degree": "B.E. in Electronics & Communication Engineering CGPA: 8.67 / 10.0",
+      "field_of_study": "Electronics & Communication Engineering",
+      "start_date": null,
+      "end_date": "2023-01",
+      "grade": "8.67",
+      "description": "B.E. in Electronics & Communication Engineering CGPA: 8.67 / 10.0",
+      "confidence": 0.9
+    }
+  ],
+  "projects": [
+    {
+      "name": "CloudOps Command Center (Open Source)",
+      "role": null,
+      "description": "React · ASP.NET Core · PostgreSQL · Kubernetes · Terraform · GitHub Actions · ArgoCD github.com/siddharth20s/cloudops-command-center Built a cloud operations platform providing a unified view of applications, environments, deployments, Kubernetes workloads, incidents, and infrastructure health. Designed a Clean Architecture backend with RBAC, audit logging, deployment governance, and environment management capabilities for cloud-native applications. Automated infrastructure provisioning and GitOps-based deployments using Terraform, GitHub Actions, Kubernetes, and ArgoCD — enabling repeatable, auditable release workflows. Implemented observability stack with Prometheus, Grafana, and Loki, enabling real-time monitoring, deployment correlation, and operational insights across environments. Developed an AI assistant that combines deployment, infrastructure, and application telemetry to accelerate incident investigation and root-cause analysis.",
+      "links": [
+        "https://github.com/siddharth20s/cloudops-command-center"
+      ],
+      "technologies": [
+        "asp.net core",
+        "react",
+        "kubernetes",
+        "terraform",
+        "postgresql",
+        "ai assistant",
+        "github",
+        "github actions",
+        "gitops",
+        "argocd",
+        "prometheus",
+        "grafana",
+        "loki"
+      ]
+    },
+    {
+      "name": "Healthcare Cloud Infrastructure Automation Platform",
+      "role": null,
+      "description": "Terraform · Azure · Bicep · Azure DevOps · PostgreSQL Developed modular Terraform infrastructure for dev and QA environments, provisioning Azure App Services, Storage Accounts, Key Vaults, and managed databases with full IaC lifecycle management. Built Azure DevOps CI/CD pipelines with Terraform plan/apply gates, environment approvals, and rollback mechanisms — reducing manual provisioning effort by ~65%.",
+      "links": [],
+      "technologies": [
+        "azure",
+        "terraform",
+        "app services",
+        "storage accounts",
+        "bicep",
+        "postgresql",
+        "azure devops",
+        "healthcare"
+      ]
+    },
+    {
+      "name": "AWS Production Operations & EKS Support",
+      "role": null,
+      "description": "AWS · EKS · EC2 · Lambda · CloudWatch · Jenkins · Docker Managed production EKS clusters for healthcare workloads: node group lifecycle, add-on upgrades, IAM configuration, and pod-level troubleshooting across namespaces. Investigated production incidents using CloudWatch Logs Insights and container-level debugging; authored runbooks to reduce future resolution time.",
+      "links": [],
+      "technologies": [
+        "aws",
+        "docker",
+        "eks",
+        "ec2",
+        "lambda",
+        "iam",
+        "jenkins",
+        "cloudwatch",
+        "healthcare"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Microsoft Certified: Azure Administrator Associate (AZ-104)",
+      "issuer": null,
+      "date": null
+    },
+    {
+      "name": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+      "issuer": null,
+      "date": null
+    },
+    {
+      "name": "HashiCorp Certified: Terraform Associate (TF-004)",
+      "issuer": null,
+      "date": null
+    }
+  ],
+  "languages": [],
+  "achievements": [],
+  "sections": {
+    "summary": "DevOps & Cloud Engineer with 2+ years of experience operating AWS and Azure infrastructure in production healthcare\nenvironments. Specializes in Infrastructure as Code (Terraform), Kubernetes/EKS cluster management, CI/CD pipeline\nautomation, and containerized microservices deployments. Proven ability to maintain SLOs for system availability and latency,\nreduce deployment lead times, and bridge development and operations teams through GitOps practices, observability tooling, and\nblameless postmortem culture. Creator of CloudOps Command Center — an open-source cloud operations platform providing\nunified deployment governance, Kubernetes visibility, and AI-assisted incident investigation.",
+    "experience": "Kanini Software Solutions Apr 2024 – Present\nDevOps / Cloud Engineer Chennai, India\n\n• Engineered reusable Terraform modules for Azure infrastructure (App Services, Key Vault, Storage Accounts,\nPostgreSQL), reducing environment provisioning time by ~60% and eliminating configuration drift across dev and QA.\n• Built and maintained GitHub Actions and Azure DevOps CI/CD pipelines for .NET microservices, enabling zero-downtime deployments and cutting manual release effort by ~70%.\n• Operated EKS clusters in production — managing node group lifecycles, IAM role bindings, add-on version compatibility,\nand Kubernetes upgrade sequencing; resolved control-plane-to-node version mismatch incidents post-deployment.\n• Containerized and deployed .NET microservices with Docker across EKS, K3s, and KIND environments; managed\nworkloads using kubectl, YAML manifests, and Helm charts.\n• Implemented Datadog and CloudWatch dashboards and alerting for Lambda, EC2, and EKS cluster health monitoring;\nreduced mean time to detection (MTTD) for production incidents.\n• Provisioned and managed AWS and Azure infrastructure using Terraform and Bicep; enforced IaC standards and\nconfiguration management practices for consistent, repeatable deployments.\n• Applied security best practices across all deployments: IAM least-privilege policies, secrets management via Key Vault, and\nDevSecOps controls in CI/CD pipelines.\n• Participated in on-call rotations, incident response, blameless postmortems, and root cause analysis (RCA) to maintain\nSLOs for system availability and latency.\n• Collaborated with dev teams to resolve deployment failures, cloud misconfigurations, and environment parity issues;\ndocumented processes and runbooks for knowledge sharing.\n• Supported PostgreSQL and MS SQL Server backends including stored procedure debugging, query optimization, and\ndatabase connectivity for ASP.NET Core REST APIs.",
+    "education": "Francis Xavier Engineering College, Tirunelveli Graduated 2023\nB.E. in Electronics & Communication Engineering CGPA: 8.67 / 10.0",
+    "skills": "Cloud: AWS (EKS, EC2, Lambda, IAM, VPC, S3, RDS, CloudWatch) · Azure (App Services, Key Vault, AKS, Storage, EntraID)\nIaC & Config: Terraform · Azure Bicep · CloudFormation · Helm · kustomize · configuration management\nContainers & Orchestration: Docker · Kubernetes · EKS · AKS · K3s · KIND · kubectl · ArgoCD\nCI/CD & Automation: GitHub Actions · Azure DevOps · Jenkins · GitOps\nMonitoring & Observability: Datadog · CloudWatch · Prometheus · Grafana · Loki · SLO/SLI/SLA · incident response\nLanguages & Dev: Python (Boto3, Azure SDK) · Bash · TypeScript · YAML · ASP.NET Core · REST APIs\nDatabases: PostgreSQL · MS SQL Server · Azure SQL · stored procedures · query optimization\nSecurity: IAM least-privilege · secrets management (Key Vault) · DevSecOps · security best practices",
+    "projects": "CloudOps Command Center (Open Source) 2026 – Present\nReact · ASP.NET Core · PostgreSQL · Kubernetes · Terraform · GitHub Actions · ArgoCD github.com/siddharth20s/cloudops-command-center\n\n• Built a cloud operations platform providing a unified view of applications, environments, deployments, Kubernetes\nworkloads, incidents, and infrastructure health.\n• Designed a Clean Architecture backend with RBAC, audit logging, deployment governance, and environment management\ncapabilities for cloud-native applications.\n• Automated infrastructure provisioning and GitOps-based deployments using Terraform, GitHub Actions, Kubernetes, and\nArgoCD — enabling repeatable, auditable release workflows.\n• Implemented observability stack with Prometheus, Grafana, and Loki, enabling real-time monitoring, deployment\ncorrelation, and operational insights across environments.\n• Developed an AI assistant that combines deployment, infrastructure, and application telemetry to accelerate incident\ninvestigation and root-cause analysis.\n\nHealthcare Cloud Infrastructure Automation Platform 2024 – 2025\nTerraform · Azure · Bicep · Azure DevOps · PostgreSQL\n\n• Developed modular Terraform infrastructure for dev and QA environments, provisioning Azure App Services, Storage\nAccounts, Key Vaults, and managed databases with full IaC lifecycle management.\n• Built Azure DevOps CI/CD pipelines with Terraform plan/apply gates, environment approvals, and rollback mechanisms\n— reducing manual provisioning effort by ~65%.\n\nAWS Production Operations & EKS Support 2024 – 2025\nAWS · EKS · EC2 · Lambda · CloudWatch · Jenkins · Docker\n\n• Managed production EKS clusters for healthcare workloads: node group lifecycle, add-on upgrades, IAM configuration,\nand pod-level troubleshooting across namespaces.\n• Investigated production incidents using CloudWatch Logs Insights and container-level debugging; authored runbooks to\nreduce future resolution time.",
+    "certifications": "• Microsoft Certified: Azure Administrator Associate (AZ-104)\n• Microsoft Certified: Azure Fundamentals (AZ-900)\n• HashiCorp Certified: Terraform Associate (TF-004)",
+    "_unassigned": "Siddharth Rajendran\nsiddharthr4925@gmail.com ❖ +91 9150897914 ❖ linkedin.com/in/siddharth20s ❖ github.com/siddharth20s ❖ Chennai, India"
+  },
+  "raw_text": "Siddharth Rajendran \nsiddharthr4925@gmail.com ❖ +91 9150897914 ❖ linkedin.com/in/siddharth20s ❖ github.com/siddharth20s ❖ Chennai, India \nPROFESSIONAL SUMMARY \n \nDevOps & Cloud Engineer with 2+ years of experience operating AWS and Azure infrastructure in production healthcare \nenvironments. Specializes in Infrastructure as Code (Terraform), Kubernetes/EKS cluster management, CI/CD pipeline \nautomation, and containerized microservices deployments. Proven ability to maintain SLOs for system availability and latency, \nreduce deployment lead times, and bridge development and operations teams through GitOps practices, observability tooling, and \nblameless postmortem culture. Creator of CloudOps Command Center — an open-source cloud operations platform providing \nunified deployment governance, Kubernetes visibility, and AI-assisted incident investigation. \nWORK EXPERIENCE \nKanini Software Solutions Apr 2024 – Present \nDevOps / Cloud Engineer Chennai, India \n \n• Engineered reusable Terraform modules for Azure infrastructure (App Services, Key Vault, Storage Accounts, \nPostgreSQL), reducing environment provisioning time by ~60% and eliminating configuration drift across dev and QA. \n• Built and maintained GitHub Actions and Azure DevOps CI/CD pipelines for .NET microservices, enabling zero-downtime deployments and cutting manual release effort by ~70%. \n• Operated EKS clusters in production — managing node group lifecycles, IAM role bindings, add-on version compatibility, \nand Kubernetes upgrade sequencing; resolved control-plane-to-node version mismatch incidents post-deployment. \n• Containerized and deployed .NET microservices with Docker across EKS, K3s, and KIND environments; managed \nworkloads using kubectl, YAML manifests, and Helm charts. \n• Implemented Datadog and CloudWatch dashboards and alerting for Lambda, EC2, and EKS cluster health monitoring; \nreduced mean time to detection (MTTD) for production incidents. \n• Provisioned and managed AWS and Azure infrastructure using Terraform and Bicep; enforced IaC standards and \nconfiguration management practices for consistent, repeatable deployments. \n• Applied security best practices across all deployments: IAM least-privilege policies, secrets management via Key Vault, and \nDevSecOps controls in CI/CD pipelines. \n• Participated in on-call rotations, incident response, blameless postmortems, and root cause analysis (RCA) to maintain \nSLOs for system availability and latency. \n• Collaborated with dev teams to resolve deployment failures, cloud misconfigurations, and environment parity issues; \ndocumented processes and runbooks for knowledge sharing. \n• Supported PostgreSQL and MS SQL Server backends including stored procedure debugging, query optimization, and \ndatabase connectivity for ASP.NET Core REST APIs. \nPROJECTS \nCloudOps Command Center (Open Source) 2026 – Present \nReact · ASP.NET Core · PostgreSQL · Kubernetes · Terraform · GitHub Actions · ArgoCD github.com/siddharth20s/cloudops-command-center \n \n• Built a cloud operations platform providing a unified view of applications, environments, deployments, Kubernetes \nworkloads, incidents, and infrastructure health. \n• Designed a Clean Architecture backend with RBAC, audit logging, deployment governance, and environment management \ncapabilities for cloud-native applications. \n• Automated infrastructure provisioning and GitOps-based deployments using Terraform, GitHub Actions, Kubernetes, and \nArgoCD — enabling repeatable, auditable release workflows. \n• Implemented observability stack with Prometheus, Grafana, and Loki, enabling real-time monitoring, deployment \ncorrelation, and operational insights across environments. \n• Developed an AI assistant that combines deployment, infrastructure, and application telemetry to accelerate incident \ninvestigation and root-cause analysis. \n \nHealthcare Cloud Infrastructure Automation Platform 2024 – 2025 \nTerraform · Azure · Bicep · Azure DevOps · PostgreSQL \n \n\n• Developed modular Terraform infrastructure for dev and QA environments, provisioning Azure App Services, Storage \nAccounts, Key Vaults, and managed databases with full IaC lifecycle management. \n• Built Azure DevOps CI/CD pipelines with Terraform plan/apply gates, environment approvals, and rollback mechanisms \n— reducing manual provisioning effort by ~65%. \n \nAWS Production Operations & EKS Support 2024 – 2025 \nAWS · EKS · EC2 · Lambda · CloudWatch · Jenkins · Docker \n \n• Managed production EKS clusters for healthcare workloads: node group lifecycle, add-on upgrades, IAM configuration, \nand pod-level troubleshooting across namespaces. \n• Investigated production incidents using CloudWatch Logs Insights and container-level debugging; authored runbooks to \nreduce future resolution time. \nCERTIFICATIONS \n \n• Microsoft Certified: Azure Administrator Associate (AZ-104) \n• Microsoft Certified: Azure Fundamentals (AZ-900) \n• HashiCorp Certified: Terraform Associate (TF-004) \nEDUCATION \nFrancis Xavier Engineering College, Tirunelveli Graduated 2023 \nB.E. in Electronics & Communication Engineering CGPA: 8.67 / 10.0 \nSKILLS \n \nCloud: AWS (EKS, EC2, Lambda, IAM, VPC, S3, RDS, CloudWatch) · Azure (App Services, Key Vault, AKS, Storage, EntraID) \nIaC & Config: Terraform · Azure Bicep · CloudFormation · Helm · kustomize · configuration management \nContainers & Orchestration: Docker · Kubernetes · EKS · AKS · K3s · KIND · kubectl · ArgoCD \nCI/CD & Automation: GitHub Actions · Azure DevOps · Jenkins · GitOps \nMonitoring & Observability: Datadog · CloudWatch · Prometheus · Grafana · Loki · SLO/SLI/SLA · incident response \nLanguages & Dev: Python (Boto3, Azure SDK) · Bash · TypeScript · YAML · ASP.NET Core · REST APIs \nDatabases: PostgreSQL · MS SQL Server · Azure SQL · stored procedures · query optimization \nSecurity: IAM least-privilege · secrets management (Key Vault) · DevSecOps · security best practices",
+  "signals": {
+    "total_experience_years": 2.3,
+    "seniority": "junior",
+    "dominant_domains": [
+      "cloud_and_devops",
+      "application_development",
+      "data_and_ai"
+    ]
+  },
+  "quality": {
+    "completeness_score": 0.95,
+    "warnings": []
+  },
+  "extras": {
+    "parser_metadata": {
+      "page_count": 2
+    }
+  }
+}

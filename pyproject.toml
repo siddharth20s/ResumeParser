@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resume-intake"
+version = "0.1.0"
+description = "Portable resume parsing for profile autofill and matching workflows"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Resume Intake Team" }]
+dependencies = [
+  "fastapi>=0.115.0",
+  "uvicorn>=0.30.0",
+  "python-multipart>=0.0.9",
+  "pydantic>=2.7.0",
+  "pypdf>=4.3.0",
+  "python-docx>=1.1.2",
+  "python-dateutil>=2.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.2.0",
+]
+
+[project.scripts]
+resume-intake = "resume_intake.cli:main"
+resume-intake-api = "resume_intake.api:run"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

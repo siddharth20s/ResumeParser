@@ -1,0 +1,12 @@
+services:
+  resume-intake-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: resume-intake:latest
+    container_name: resume-intake-api
+    ports:
+      - "8000:8000"
+    environment:
+      API_HOST: 0.0.0.0
+      API_PORT: 8000
