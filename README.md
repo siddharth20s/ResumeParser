@@ -78,6 +78,36 @@ curl.exe -X POST "http://127.0.0.1:8000/parse" -F "file=@D:/path/to/resume.pdf"
 
 OpenAPI docs are available at `http://127.0.0.1:8000/docs`.
 
+## Publish To Docker Hub (GitHub Actions)
+
+This repo includes a pipeline at `.github/workflows/docker-publish.yml`.
+
+### 1. Configure repository secrets
+
+- `DOCKERHUB_USERNAME`: your Docker Hub username
+- `DOCKERHUB_TOKEN`: Docker Hub access token (recommended instead of password)
+
+### 2. Configure repository variable
+
+- `DOCKERHUB_REPOSITORY`: image name in Docker Hub, for example `resume-intake`
+
+Final image path will be:
+
+`<DOCKERHUB_USERNAME>/<DOCKERHUB_REPOSITORY>`
+
+### 3. Trigger behavior
+
+- Push to `main`: publishes multi-arch image and updates `latest`
+- Push tag like `v1.2.3`: publishes version tags
+- Manual run: available via workflow dispatch
+
+### 4. Pull from any integration project
+
+```powershell
+docker pull <dockerhub-username>/<dockerhub-repository>:latest
+docker run --rm -p 8000:8000 <dockerhub-username>/<dockerhub-repository>:latest
+```
+
 ## API Endpoints
 
 - `GET /health`
