@@ -67,5 +67,12 @@ async def parse_resume_endpoint(file: UploadFile = File(...)) -> dict[str, objec
 
 def run() -> None:
     host = os.getenv("API_HOST", "0.0.0.0")
-    port = int(os.getenv("API_PORT", "8000"))
-    uvicorn.run("resume_intake.api:app", host=host, port=port, reload=False)
+
+    port = int(os.getenv("PORT", os.getenv("API_PORT", "8000")))
+
+    uvicorn.run(
+        "resume_intake.api:app",
+        host=host,
+        port=port,
+        reload=False,
+    )
